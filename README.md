@@ -1,77 +1,77 @@
-Aqui está um exemplo de arquivo `README.md` para o seu projeto **PetroCity**:  
+# 🐾 PetroCity  
 
-```markdown
-# PetroCity 🐾
-
-**PetroCity** é uma aplicação mobile desenvolvida com React Native, projetada para amantes de animais. O app conecta usuários a imagens adoráveis de cachorrinhos e gatinhos, utilizando APIs públicas para carregar conteúdos.  
-
-## 🎯 Objetivo
-
-Criar uma experiência simples e encantadora onde os usuários podem visualizar fotos de cães e gatos em telas dedicadas, promovendo o amor pelos pets.  
+**PetroCity** é um aplicativo mobile desenvolvido com **React Native** para quem ama pets!  
+O app permite que os usuários escolham entre ver imagens adoráveis de cachorrinhos ou gatinhos, aproveitando conteúdos fornecidos por APIs públicas.  
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🎯 Objetivo  
+
+Criar uma experiência divertida e simples para conectar amantes de animais ao mundo encantador de fotos de cães e gatos.  
+
+---
+
+## 🛠️ Tecnologias Utilizadas  
 
 - **React Native**: Framework para desenvolvimento mobile multiplataforma.  
 - **APIs Públicas**:  
-  - [The Dog API](https://thedogapi.com)  
-  - [The Cat API](https://thecatapi.com)  
-- **Jest**: Para testes unitários e validação de componentes.  
+  - [The Dog API](https://thedogapi.com) 🐶  
+  - [The Cat API](https://thecatapi.com) 🐱  
+- **Jest**: Framework para testes unitários.  
 
 ---
 
-## 📱 Funcionalidades
+## 📱 Funcionalidades  
 
-1. **Tela Inicial**:  
-   - Apresenta botões para o usuário escolher entre ver fotos de cachorrinhos 🐶 ou gatinhos 🐱.
-
-2. **Tela de Cachorrinhos**:  
-   - Exibe imagens fofas de cães.  
-
-3. **Tela de Gatinhos**:  
-   - Mostra fotos encantadoras de gatos.  
+- **Tela Inicial**  
+  - Botões para selecionar entre "Cachorrinhos" ou "Gatinhos".  
+- **Tela de Cachorrinhos**  
+  - Exibe uma galeria de imagens fofas de cães.  
+- **Tela de Gatinhos**  
+  - Apresenta fotos adoráveis de gatos.  
 
 ---
 
-## 🚀 Como Executar o Projeto
+## 🚀 Como Executar o Projeto  
 
-1. **Clone o repositório**:
+1. **Clone o repositório**  
    ```bash
    git clone https://github.com/seu-usuario/petrocity.git
-   ```
-2. **Acesse a pasta do projeto**:
-   ```bash
-   cd petrocity
-   ```
-3. **Instale as dependências**:
-   ```bash
-   npm install
-   ```
-4. **Execute o projeto**:
-   ```bash
-   npm run start
-   ```
-5. **Execute no emulador ou dispositivo físico**:
-   - Android: `npm run android`  
-   - iOS: `npm run ios`  
+Acesse o diretório do projeto
 
----
+bash
+Copiar código
+cd petrocity
+Instale as dependências
 
-## 🧪 Testes
+bash
+Copiar código
+npm install
+Execute o projeto
 
-Testes unitários serão implementados para garantir a funcionalidade dos componentes e a confiabilidade do projeto.
+bash
+Copiar código
+npm run start
+Rode no emulador ou dispositivo físico
 
-- Para rodar os testes:  
-  ```bash
-  npm test
-  ```
+Android:
+bash
+Copiar código
+npm run android
+iOS:
+bash
+Copiar código
+npm run ios
+🧪 Testes
+Os testes unitários serão utilizados para garantir a confiabilidade dos componentes e serviços.
 
----
-
-## 📋 Estrutura de Pastas
-
-```plaintext
+Para rodar os testes:
+bash
+Copiar código
+npm test
+📂 Estrutura de Pastas
+plaintext
+Copiar código
 PetroCity/
 ├── src/
 │   ├── components/  # Componentes reutilizáveis
@@ -81,31 +81,24 @@ PetroCity/
 ├── tests/           # Testes unitários
 ├── App.js           # Ponto de entrada do app
 ├── package.json     # Configuração de dependências
-```
+🔜 Próximos Passos
+ Implementar paginação para carregar mais fotos.
+ Adicionar animações para uma experiência mais interativa.
+ Criar um sistema de curtidas para as fotos favoritas.
+ Incluir informações sobre raças de pets.
+💡 Como Contribuir
+Contribuições são sempre bem-vindas!
 
----
+Faça um fork do repositório.
+Crie uma branch para sua funcionalidade:
+bash
+Copiar código
+git checkout -b minha-feature
+Envie seu PR para revisão.
+🌟 Agradecimentos
+Agradecemos às APIs incríveis que tornam este projeto possível:
 
-## 📚 Próximos Passos
-
-- Implementar paginação para carregar mais fotos.  
-- Adicionar animações para melhorar a experiência do usuário.  
-- Criar um sistema de curtidas para as fotos.  
-- Expandir para incluir informações sobre as raças.  
-
----
-
-## 💡 Contribuindo
-
-Contribuições são bem-vindas!  
-- Faça um fork do projeto.  
-- Crie uma branch para sua funcionalidade: `git checkout -b minha-feature`.  
-- Envie seu PR.  
-
----
-
-## 🐶🐱 Agradecimentos
-
-Agradecemos às APIs [The Dog API](https://thedogapi.com) e [The Cat API](https://thecatapi.com) por fornecerem conteúdo de qualidade.  
-
-Desenvolvido com ❤️ para amantes de animais.  
-```
+The Dog API 🐶
+The Cat API 🐱
+❤️ Feito com amor
+Desenvolvido para todos que adoram compartilhar e apreciar a fofura dos nossos amigos de quatro patas. 🐾
