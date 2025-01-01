@@ -1,12 +1,46 @@
-import React from 'react';
-import { View, Text } from 'react-native';
+import React from "react";
+import { View, Text, TouchableOpacity, Image } from "react-native";
+import { useNavigation } from "@react-navigation/native";
+import  styles from "./HomeStyles";
 
-import { styles } from '../Home/HomeStyles';
+const Home: React.FC = () => {
+  const navigation = useNavigation();
 
-export function Home() {
+  const widthValue = `${50}%`; // Equivalente a UIScreen.main.bounds.width * 0.5
+
   return (
     <View style={styles.container}>
-        <Text> Hello, world</Text>
+      <View style={styles.spacer} />
+      <View style={styles.iconContainer}>
+        <Image
+          source={require("./assets/cat-icon.png")} // Substitua com seu ícone de gato
+          style={styles.icon}
+        />
+        <Image
+          source={require("./assets/dog-icon.png")} // Substitua com seu ícone de cachorro
+          style={[styles.icon, styles.dogIcon]} // Espelhado horizontalmente
+        />
+      </View>
+      <Text style={styles.title}>
+        Selecione quais animais fofinhos você deseja visualizar
+      </Text>
+
+      <TouchableOpacity
+        style={[styles.button, { width: widthValue }]}
+        onPress={() => navigation.navigate("CatsView")}
+      >
+        <Text style={styles.buttonText}>Ver gatos</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity
+        style={[styles.button, { width: widthValue }]}
+        onPress={() => navigation.navigate("DogsView")}
+      >
+        <Text style={styles.buttonText}>Ver cachorrinhos</Text>
+      </TouchableOpacity>
+      <View style={styles.spacer} />
     </View>
   );
-}
+};
+
+export default Home;
