@@ -9,8 +9,6 @@ const CatsView = () => {
     const [cats, setCats] = useState<Cat[]>([]);
     const [error, setError] = useState<string | null>(null);
     
-
-
     const fetchCats = async () => {
         try {
             const response = await fetch('https://api.thecatapi.com/v1/images/search?limit=20');
