@@ -1,10 +1,10 @@
 import React from "react";
 import { View, Text, TouchableOpacity, Image } from "react-native";
-import { useNavigation } from "@react-navigation/native";
+import { useNavigation, NavigationProp } from "@react-navigation/native";
+import { RootStackParamList } from "../../types/types"; // Adjust the import path as necessary
 import  styles from "./HomeStyles";
 
-const Home: React.FC = () => {
-  const navigation = useNavigation();
+  const navigation = useNavigation<NavigationProp<RootStackParamList>>();
 
   const widthValue = `${50}%`; // Equivalente a UIScreen.main.bounds.width * 0.5
 
